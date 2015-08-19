@@ -1,0 +1,15 @@
+font-family: 'Shadows Into Light', cursive;
+
+body { 
+background-image: url("upfeathers.png")
+background-repeat: repeat-x;
+
+  tr,
+  td  {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #808080;
+    padding: 1rem;
+    background-color: white;
+  };
+
