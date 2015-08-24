@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<script src="style.css"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-1.11.3.js"></script>
 	<script src="tictactoe.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
 	<title>TicTacToe</title>
 </head>
-
-<h1>This is a game of tic-tac-toe</h1>
-<h2>Please center this text as a small intro</h2>
-<h3>Please align-left this block of text explaining the rules</h3>
-
-
-
-<div class="grid">
-	<div class="toprow">
-		<div class="Box0"></li>
-		<div class="Box1"></li>
-		<div class="Box2"></li>
-	</div>
-
-	<div class="middlerow">
-		<div class="Box3"></li>
-		<div class="Box4"></li>
-		<div class="Box5"></li>
-	</div>
-
-	<div class="toprow">
-		<div class="Box6"></li>
-		<div class="Box7"></li>
-		<div class="Box8"></li>
-	</div>
+<body>
+<h1>Tic Tac Toe</h1>
+<br>
+<h2> The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.</h2>
+<br>
+  <div class="reset button">
+            <button id="reset">Play again?</button>
 
 
-
-
-
-
-
-
-	<script src="jquery.js"></script>
+<div id="board-outer" class="center">
+        <table id="board">
+            <tr class="row">
+                <td id="a1"></td>
+                <td id="a2"></td>
+                <td id="a3"></td>
+            </tr>
+            <tr class="row">
+                <td id="b1"></td>
+                <td id="b2"></td>
+                <td id="b3"></td>
+            </tr>
+            <tr class="row">
+                <td id="c1"></td>
+                <td id="c2"></td>
+                <td id="c3"></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+<!-- <script src="test.js"></script> -->
 </body>
 </html>
+
+

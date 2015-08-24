@@ -6,14 +6,14 @@ It would seem to be a simple game of tic-tac-toe, but it is so much more. This i
 
 - How you tackle problems
 
-Pseudo coding is still my best friend. Css is till my enemy.
+Pseudo coding is still my best friend. Css is still my enemy.
 
 - Explain any tricky code or weird (?), choices you made.
 
-
+   -    -
 
 - Note any improvements or ideas for future.
 
-
+Would have liked to spend more time on css and styling.
 
 - THANK YOU
